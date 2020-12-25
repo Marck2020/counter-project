@@ -1,0 +1,214 @@
+* {
+    margin:0 auto;
+    text-align: center;
+    background:linear-gradient(#1D2671, #C33764);
+    background:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:#f8f8ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top:30px;
+    font-size: 35px;
+}
+
+.btn:focus{
+    outline:none;
+
+}
+
+.btn {
+    width:40px;
+    height:30px;
+    background:none;
+    border:none;
+    cursor: pointer;
+}
+
+/* BUTTONS TO INCREASE THE COUNTER */
+
+#increment {
+    width:40px;
+    height:30px;
+    text-align:center;
+    background:none;
+    border:none;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+#increment10 {
+    
+    position:absolute;
+    margin-top:100px;
+    margin-left: 30px;
+    
+}
+#increment20 {
+    position:absolute;
+    margin-top:130px;
+    margin-left: 100px;
+    
+}
+
+#increment30 {
+    position:absolute;
+    margin-top:190px;
+    margin-left: 140px;
+
+}
+
+#increment40 {
+    position:absolute;
+    margin-top:240px;
+    margin-left: 100px;
+}
+
+#increment50 {
+    position:absolute;
+    margin-top:280px;
+    margin-left: 30px;
+}
+ /*BUTTONS TO DECREASE THE COUNTER */
+
+
+#decrement {
+    text-align: center;    
+}
+
+#decrement10 {
+    position: absolute;
+    margin-top: -178px;
+    margin-left: -120px;
+}
+
+#decrement20 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -190px;
+}
+
+#decrement30 {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: -230px;
+}
+#decrement40 {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -200px;
+}
+
+#decrement50 {
+    position: absolute;
+    margin-left: -120px;
+}
+
+
+
+#decrement:focus{
+    outline:none;
+}
+
+/* BUTTONS TO RESET THE COUNTER */
+
+#reset {
+position: absolute;
+margin-top: 340px;
+margin-left:-60px;
+font-size: 25px;
+}
+
+#counter {
+    width:150px;
+    height:100px;
+    color:white;
+    border-radius:10%;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#footer {
+    margin-top: 130px;
+    font-size: 20px;
+}
+
+#xing-icon {
+    width:35px;
+    height:35px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+#linkedin-icon {
+    width:35px;
+    height:35px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+#gmail-icon {
+    width:35px;
+    height:35px;
+    margin-top: 30px;
+}
+
+/*INPUT SEARCH*/
+
+#number-search {
+    position:absolute;
+    margin-top:110px;
+    margin-left: -250px;
+    font-size: 20px;
+    border-color:white;
+        color:white;
+        background-color:rgb(5, 50, 63, 0.670);
+        
+        }
+
+        #number-search:hover {
+            -moz-appearance: textfield;
+        }
+
+::placeholder{
+    color: white;
+    border:none;
+    -moz-appearance: textfield;
+  }
+  input:focus  {
+    outline:none;
+
+
+  }
+
+  #add {
+    position:absolute;
+    margin-top:110px;
+    margin-left: 0px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+        color:white;
+        background-color:rgba(75, 135, 151, 0.67);
+  }
+
+  #subtract {
+    position:absolute;
+    margin-top:110px;
+    margin-left: 60px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+        color:white;
+        background-color:rgba(75, 135, 151, 0.67);
+      
+}

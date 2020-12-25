@@ -1,0 +1,20 @@
+{
+  "name": "counter-project",
+  "version": "1.0.0",
+  "description": "<!--lint disable no-literal-urls-->\r <p align=\"center\">\r   <a href=\"https://nodejs.org/\">\r     <img\r       alt=\"Node.js\"\r       src=\"https://nodejs.org/static/images/logo-light.svg\"\r       width=\"400\"\r     />\r   </a>\r </p>",
+  "private": "true",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "img-loader": "^3.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "homepage": "https://marck2020.github.io/counter-project/dist/index.html",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
